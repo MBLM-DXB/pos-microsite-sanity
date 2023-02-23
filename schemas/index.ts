@@ -36,7 +36,9 @@ import innerVideoTextContent from "./blocks/inner-video-text-content";
 import pageLink from "./blocks/page-link";
 import verticalSliderItem from "./blocks/vertical-slider-item";
 import verticalSlider from "./blocks/vertical-slider";
-import settings from "./settings";
+import bottom_cta from "./bottom_cta";
+import header from "./header";
+import footer from "./footer";
 
 export const schemaTypes = [
     pageLink,
@@ -77,5 +79,7 @@ export const schemaTypes = [
     page,
     features_page,
     articles_page,
-    settings
+    bottom_cta,
+    header,
+    footer,
 ]
