@@ -160,8 +160,13 @@ export const titleWithDescription = () => {
     },
     {
         name: 'description',
-        type: 'text',
-        title: 'Description'
+        title: 'Description',
+        type: 'array',
+            of: [
+                {
+                type: 'block'
+                }
+            ]
     },
     {
         name: 'label',
