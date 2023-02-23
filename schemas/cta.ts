@@ -2,7 +2,7 @@ import { pageBasicInfo, groups } from "./helpers/basics";
 
 export default {
     name: 'bottom_cta',
-    title: 'Botton CTA',
+    title: 'Bottom CTA',
     type: 'document',
     fields: [
         {
