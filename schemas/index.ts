@@ -2,7 +2,6 @@ import articles_page from "./articles";
 import features_page from "./features";
 import industries_page from "./industries";
 import page from "./page";
-import bottom_cta from "./cta";
 import aboutUsContent from "./blocks/about-us-content";
 import articlesBanner from "./blocks/articles-banner";
 import articlesPaginated from "./blocks/articles-paginated";
@@ -78,6 +77,5 @@ export const schemaTypes = [
     page,
     features_page,
     articles_page,
-    bottom_cta,   
     settings
-]   
+]

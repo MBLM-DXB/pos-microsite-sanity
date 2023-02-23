@@ -8,7 +8,7 @@ export default {
             title: 'Header',
             options: {
                 collapsible: true,
-                collapsed: true,    
+                collapsed: true,
             }
         },
         {
@@ -19,10 +19,18 @@ export default {
                 collapsed: true,
             }
         },
+        {
+            name: 'bottom_cta',
+            title: 'Bottom CTA',
+            options: {
+                collapsible: true,
+                collapsed: true,
+            }
+        },
     ],
     fields: [
         {
-            name: 'Logo',
+            name: 'logo',
             title: 'Logo',
             type: 'image',
             group: 'header',
@@ -71,7 +79,19 @@ export default {
                 }
             ],
             group: 'footer',
-        }
+        },
+        {
+            name: 'title',
+            type: 'string',
+            title: 'Title',
+            group: 'bottom_cta',
+        },
+        {
+            name: 'subtitle',
+            type: 'text',
+            title: 'Subtitle',
+            group: 'bottom_cta',
+        },
 
     ],
 }
