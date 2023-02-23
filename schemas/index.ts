@@ -1,85 +1,85 @@
-import articles_page from "./articles";
-import features_page from "./features";
-import industries_page from "./industries";
-import page from "./page";
 import aboutUsContent from "./blocks/about-us-content";
+import articles_page from "./articles";
 import articlesBanner from "./blocks/articles-banner";
 import articlesPaginated from "./blocks/articles-paginated";
+import bottom_cta from "./bottom_cta";
 import cta from "./blocks/cta";
 import defaultLink from "./blocks/default-link";
-import devicesCompatibilityItem from "./blocks/devices-compatibility-item";
 import devicesCompatibility from "./blocks/devices-compatibility";
+import devicesCompatibilityItem from "./blocks/devices-compatibility-item";
 import externalIconLink from "./blocks/external-icon-link";
+import features_page from "./features";
 import featuresBanner from "./blocks/features-banner";
+import footer from "./footer";
+import header from "./header";
 import headerItem from "./blocks/header-item";
-import homeBannerWithSliderItem from "./blocks/home-banner-with-slider-item";
-import homeBannerWithSlider from "./blocks/home-banner-with-slider";
 import homeBanner from "./blocks/home-banner";
+import homeBannerWithSlider from "./blocks/home-banner-with-slider";
+import homeBannerWithSliderItem from "./blocks/home-banner-with-slider-item";
 import homeFullWidthBanner from "./blocks/home-full-width-banner";
 import homeRequirementsDevicesCard from "./blocks/home-requirements-devices-card";
 import homeRequirementsSlider from "./blocks/home-requirements-slider";
-import homeSuccessStoryClient from "./blocks/home-success-story-client";
 import homeSuccessStory from "./blocks/home-success-story";
-import homeVideoCardItem from "./blocks/home-video-card-item";
+import homeSuccessStoryClient from "./blocks/home-success-story-client";
 import homeVideoCard from "./blocks/home-video-card";
-import horizontalSliderItem from "./blocks/horizontal-slider-item";
+import homeVideoCardItem from "./blocks/home-video-card-item";
 import horizontalSlider from "./blocks/horizontal-slider";
+import horizontalSliderItem from "./blocks/horizontal-slider-item";
 import htmlContent from "./blocks/html-content";
 import htmlContentBanner from "./blocks/html-content-banner";
-import industriesHorizontalSliderItem from "./blocks/industries-horizontal-slider-item";
-import industriesHorizontalSlider from "./blocks/industries-horizontal-slider";
+import industries_page from "./industries";
 import industriesBanner from "./blocks/industries-banner";
+import industriesHorizontalSlider from "./blocks/industries-horizontal-slider";
+import industriesHorizontalSliderItem from "./blocks/industries-horizontal-slider-item";
 import innerImageTextCard from "./blocks/inner-image-text-card";
-import innerSliderCardItem from "./blocks/inner-slider-card-item";
 import innerSliderCard from "./blocks/inner-slider-card";
+import innerSliderCardItem from "./blocks/inner-slider-card-item";
 import innerVideoTextContent from "./blocks/inner-video-text-content";
+import page from "./page";
 import pageLink from "./blocks/page-link";
-import verticalSliderItem from "./blocks/vertical-slider-item";
 import verticalSlider from "./blocks/vertical-slider";
-import bottom_cta from "./bottom_cta";
-import header from "./header";
-import footer from "./footer";
+import verticalSliderItem from "./blocks/vertical-slider-item";
 
 export const schemaTypes = [
-    pageLink,
     aboutUsContent,
+    articles_page,
     articlesBanner,
     articlesPaginated,
-    industries_page,
+    bottom_cta,
     cta,
     defaultLink,
-    devicesCompatibilityItem,
     devicesCompatibility,
+    devicesCompatibilityItem,
     externalIconLink,
+    features_page,
     featuresBanner,
+    footer,
+    header,
     headerItem,
-    homeBannerWithSliderItem,
-    homeBannerWithSlider,
     homeBanner,
+    homeBannerWithSlider,
+    homeBannerWithSliderItem,
     homeFullWidthBanner,
     homeRequirementsDevicesCard,
     homeRequirementsSlider,
-    homeSuccessStoryClient,
     homeSuccessStory,
-    homeVideoCardItem,
+    homeSuccessStoryClient,
     homeVideoCard,
-    horizontalSliderItem,
+    homeVideoCardItem,
     horizontalSlider,
+    horizontalSliderItem,
     htmlContent,
     htmlContentBanner,
-    industriesHorizontalSliderItem,
-    industriesHorizontalSlider,
+    industries_page,
     industriesBanner,
+    industriesHorizontalSlider,
+    industriesHorizontalSliderItem,
     innerImageTextCard,
-    innerSliderCardItem,
     innerSliderCard,
+    innerSliderCardItem,
     innerVideoTextContent,
-    verticalSliderItem,
-    verticalSlider,
     page,
-    features_page,
-    articles_page,
-    bottom_cta,
-    header,
-    footer,
+    pageLink,
+    verticalSlider,
+    verticalSliderItem,
 ]
