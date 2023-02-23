@@ -5,7 +5,7 @@ export default {
     title: 'Horizontal Slider',
     type: 'object',
     fields: [
-        
+        ...(titleWithDescription()),
         {
             name: 'items',
             title: 'Items',
