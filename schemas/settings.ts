@@ -94,13 +94,13 @@ export default {
         },
         {
             name: 'download_label',
-            type: 'text',
+            type: 'string',
             title: 'Download Label',
             group: 'bottom_cta',
         },
         {
             name: 'request_label',
-            type: 'text',
+            type: 'string',
             title: 'Request Label',
             group: 'bottom_cta',
         },
