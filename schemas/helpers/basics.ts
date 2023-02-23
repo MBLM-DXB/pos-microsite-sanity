@@ -315,4 +315,68 @@ export const imageTextTitleSubtitleButtonBlock = () => {
     ]
 }
 
-
+export const articleInnerPage = () => {
+    return [
+        {
+            name: 'title',
+            type: 'string',
+            title: 'Title'
+        },
+        {
+            name: 'base_slug',
+            type:'string',
+            title: 'Base Slug'
+        },
+        {
+            name: 'slug',
+            type:'slug',
+            title: 'Slug',
+            options: {
+                source: 'title',
+                maxLength: 200, // will be ignored if slugify is set
+                slugify: (input: string) => input
+                                    .toLowerCase()
+                                    .replace(/\s+/g, '-')
+                                    .slice(0, 300)
+            }
+        },
+        {
+            name: 'description',
+            type: 'string',
+            title: 'Description'
+        },
+        {
+            name: 'image',
+            title: 'Image',
+            type: 'image',
+            options: {
+                hotspot: true,
+            },
+        },
+        {
+            name: 'Date',
+            type: 'date',
+            title: 'Date',
+        },
+        {
+            name: 'text',
+            type: 'array',
+            title: 'Text',
+            of: [
+                {
+                    type: 'block'
+                }
+            ]
+        },
+        {
+            name: 'seo_title',
+            type: 'string',
+            title: 'SEO Title',
+        },
+        {
+            name: 'seo_description',
+            type: 'text',
+            title: 'SEO Description',
+        },
+    ]
+}
