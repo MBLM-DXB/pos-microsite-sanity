@@ -20,12 +20,9 @@ export default {
             type: 'array',
             of: [
                 {
-                    type: 'reference',
-                    to: [
-                        {
-                            type: 'home_requirements_devices_card',
-                        }]
-                    }]
+                    type: 'home_requirements_devices_card',
+                }
+            ]
         }
     ]
 }
