@@ -92,6 +92,18 @@ export default {
             title: 'Subtitle',
             group: 'bottom_cta',
         },
+        {
+            name: 'download_label',
+            type: 'text',
+            title: 'Download Label',
+            group: 'bottom_cta',
+        },
+        {
+            name: 'request_label',
+            type: 'text',
+            title: 'Request Label',
+            group: 'bottom_cta',
+        },
 
     ],
 }
