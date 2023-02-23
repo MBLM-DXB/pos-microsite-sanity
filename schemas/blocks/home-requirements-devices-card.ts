@@ -17,7 +17,12 @@ export default {
         {
             name: 'requirements_list',
             title: 'Requirements List',
-            type: 'text',
+            type: 'array',
+            of: [
+                {
+                type: 'block'
+                }
+            ]
         },
         {
             name: 'card_width',
