@@ -70,7 +70,7 @@ export const pageBasicInfo = () => {
             ]
         },
         {
-            name: 'content',
+            name: 'Content',
             type: 'array',
             title: 'Content',
             of: [
