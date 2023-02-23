@@ -49,7 +49,7 @@ export default {
         {
             name: 'text',
             title: 'Text',
-            type: 'text',
+            type: 'string',
             group: 'footer',
         },
         {
@@ -64,8 +64,8 @@ export default {
             group: 'footer',
         },
         {
-            name: 'copyrigth',
-            title: 'Copyrigth',
+            name: 'copyright',
+            title: 'Copyright',
             type: 'string',
             group: 'footer',
         },

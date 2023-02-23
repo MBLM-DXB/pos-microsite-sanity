@@ -14,6 +14,5 @@ export default {
                 hotspot: true,
             }
         },
-        
     ]
 }

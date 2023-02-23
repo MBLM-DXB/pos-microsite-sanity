@@ -5,7 +5,6 @@ export default {
     title: 'Html Content',
     type: 'object',
     fields: [
-        
         {
             name: 'title',
             title: 'title',
