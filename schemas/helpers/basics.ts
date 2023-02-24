@@ -350,12 +350,16 @@ export const articleInnerPage = () => {
         },
         {
             name: 'news_type',
-            type: 'array',
+            type: 'string',
             title: 'News Type',
-            initialValue: ['Announcement', 'Press', 'Story'],
-            of: [
-                {type: 'string'},
-            ],
+            options: {
+                list: [
+                    {title: 'Announcement', value: 'announcement'},
+                    {title: 'Press', value: 'press'},
+                    {title: 'Story', value: 'story'}
+                ],
+                layout: 'radio'
+            }
         },
         {
             name: 'image',
