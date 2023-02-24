@@ -49,10 +49,10 @@ export const pageBasicInfo = () => {
                 source: 'title',
                 maxLength: 200, // will be ignored if slugify is set
                 slugify: (input: string) => input
-                                     .toLowerCase()
-                                     .replace(/\s+/g, '-')
-                                     .slice(0, 300)
-              }
+                                    .toLowerCase()
+                                    .replace(/\s+/g, '-')
+                                    .slice(0, 300)
+            }
         },
         {
             name: 'subtitle',
@@ -216,7 +216,7 @@ export const buttonBlock = () => {
             name: 'link',
             type: 'reference',
             title: 'Link',
-            to: [{type: 'page'}, {type: 'articles_page'}, {type: 'features_page'}, {type: 'industries_page'}]  
+            to: [{type: 'page'}, {type: 'articles_page'}, {type: 'features_page'}, {type: 'industries_page'}]
         },
     ]
 }
