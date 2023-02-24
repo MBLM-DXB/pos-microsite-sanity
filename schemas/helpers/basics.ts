@@ -370,7 +370,7 @@ export const articleInnerPage = () => {
             },
         },
         {
-            name: 'Date',
+            name: 'date',
             type: 'date',
             title: 'Date',
         },
