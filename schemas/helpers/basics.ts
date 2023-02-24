@@ -120,6 +120,9 @@ export const pageBasicInfo = () => {
                     type: 'horizontal_slider'
                 },
                 {
+                    type: 'industries_banner'
+                },
+                {
                     type: 'industries_horizontal_slider'
                 },
                 {
