@@ -346,6 +346,15 @@ export const articleInnerPage = () => {
             title: 'Description'
         },
         {
+            name: 'news_type',
+            type: 'array',
+            title: 'News Type',
+            initialValue: ['Announcement', 'Press', 'Story'],
+            of: [
+                {type: 'string'},
+            ],
+        },
+        {
             name: 'image',
             title: 'Image',
             type: 'image',
