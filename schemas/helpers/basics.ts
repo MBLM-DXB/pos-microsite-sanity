@@ -373,6 +373,9 @@ export const articleInnerPage = () => {
             name: 'date',
             type: 'date',
             title: 'Date',
+            options: {
+                calendarTodayLabel: 'Today'
+            }
         },
         {
             name: 'text',
