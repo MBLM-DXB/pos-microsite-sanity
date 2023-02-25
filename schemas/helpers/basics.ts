@@ -1,7 +1,7 @@
 export const textBlock = () => {
     return [
         {
-            name: `title`,
+            name: 'title',
             type: 'string',
             title: 'Title'
         },
