@@ -1,7 +1,7 @@
 export const textBlock = () => {
     return [
         {
-            name: `title`,
+            name: 'title',
             type: 'string',
             title: 'Title'
         },
@@ -318,7 +318,7 @@ export const imageTextTitleSubtitleButtonBlock = () => {
     ]
 }
 
-export const articleInnerPage = () => {
+export const    articleInnerPage = () => {
     return [
         {
             name: 'title',
@@ -349,30 +349,12 @@ export const articleInnerPage = () => {
             title: 'Description'
         },
         {
-            name: 'news_type',
-            type: 'string',
-            title: 'News Type',
-            options: {
-                list: [
-                    {title: 'Announcement', value: 'announcement'},
-                    {title: 'Press', value: 'press'},
-                    {title: 'Story', value: 'story'}
-                ],
-                layout: 'radio'
-            }
-        },
-        {
             name: 'image',
             title: 'Image',
             type: 'image',
             options: {
                 hotspot: true,
             },
-        },
-        {
-            name: 'date',
-            type: 'date',
-            title: 'Date',
         },
         {
             name: 'text',
